@@ -48,7 +48,7 @@ final class TestCaseGenerator
             }
         }
 
-        for ($i = 0; $i < $iterations; $i++) {
+        for ($i = 0; $i < $iterations; ++$i) {
             foreach ($classes as $class) {
                 $code .= "\$container->get($class::class);\n";
             }

@@ -271,7 +271,7 @@ HERE;
                 </tr>
 
 HERE;
-                    $rank++;
+                    ++$rank;
                 }
                 $html .= <<<HERE
             </tbody>

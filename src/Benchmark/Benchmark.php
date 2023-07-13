@@ -101,7 +101,7 @@ final class Benchmark
         echo "Running test $testSuiteNumber.$testCaseNumber: $containerName";
 
         $this->context->clear();
-        for ($run = 0; $run < 30; $run++) {
+        for ($run = 0; $run < 30; ++$run) {
             $container = $containerDefinition->getName();
 
             $output = $this->context->getTestOutput($testSuiteNumber, $testCaseNumber, $container);

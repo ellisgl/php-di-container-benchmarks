@@ -1,6 +1,6 @@
 <?php
 
-for ($i = 1; $i <= 100; $i++) {
+for ($i = 1; $i <= 100; ++$i) {
     $j = $i - 1;
     $data = <<<EOF
 <?php
@@ -21,7 +21,7 @@ EOF;
     file_put_contents(__DIR__ . "/../src/Fixture/A/FixtureA$i.php", $data);
 }
 
-for ($i = 1; $i <= 1000; $i++) {
+for ($i = 1; $i <= 1000; ++$i) {
     $data = <<<EOF
 <?php
 
@@ -38,7 +38,7 @@ EOF;
     file_put_contents(__DIR__ . "/../src/Fixture/B/FixtureB$i.php", $data);
 }
 
-for ($i = 1; $i <= 1000; $i++) {
+for ($i = 1; $i <= 1000; ++$i) {
     $j = $i - 1;
     $data = <<<EOF
 <?php

@@ -2117,31 +2117,31 @@ final class JoomlaContainerAdapter implements ContainerAdapterInterface
     public function bootstrapSingletonContainer()
     {
         /* Generated with:
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\A\\FixtureA$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\C\\FixtureC$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->share(FixtureA" . $i . "::class, static function (ContainerInterface \$container) {\n";
                echo "    return new FixtureA{$i}(\$container->get(FixtureA" . ($i-1) . "::class));\n";
                echo "});\n\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->share(FixtureB" . $i . "::class, static function () {\n";
                echo "    return new FixtureB{$i}();\n";
                echo "});\n\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->share(FixtureC" . $i . "::class, static function (ContainerInterface \$container) {\n";
                echo "    return new FixtureC{$i}(\$container->get(FixtureC" . ($i-1) . "::class));\n";
                echo "});\n\n";
@@ -10555,31 +10555,31 @@ final class JoomlaContainerAdapter implements ContainerAdapterInterface
     public function bootstrapPrototypeContainer()
     {
         /* Generated with:
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\A\\FixtureA$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\C\\FixtureC$i";\n";
             }
 
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "\$container->set(FixtureA" . $i . "::class, static function (Container \$container) {\n";
                echo "    return new FixtureA{$i}(\$container->get(FixtureA" . ($i-1) . "::class));\n";
                echo "});\n\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->set(FixtureB" . $i . "::class, static function () {\n";
                echo "    return new FixtureB{$i}();\n";
                echo "});\n\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->set(FixtureC" . $i . "::class, static function (ContainerInterface \$container) {\n";
                echo "    return new FixtureC{$i}(\$container->get(FixtureC" . ($i-1) . "::class));\n";
                echo "});\n\n";

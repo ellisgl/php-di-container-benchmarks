@@ -44,14 +44,14 @@ final class SymfonyContainerAdapter implements ContainerAdapterInterface
         $containerBuilder->setParameter("container.dumper.inline_class_loader", false);
         $containerBuilder->setParameter("container.dumper.inline_factories", false);
 
-        for ($i = 1; $i <= 100; $i++) {
+        for ($i = 1; $i <= 100; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\A\\FixtureA$i", []);
             $definition->setShared(false);
             $definition->setAutowired(true);
             $containerBuilder->setDefinition("DiContainerBenchmarks\\Fixture\\A\\FixtureA$i", $definition);
         }
 
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\B\\FixtureB$i", []);
             $definition->setShared(false);
             $definition->setAutowired(true);
@@ -65,7 +65,7 @@ final class SymfonyContainerAdapter implements ContainerAdapterInterface
         $definition->setPublic(true);
         $containerBuilder->setDefinition(FixtureC1000::class, $definition);
 
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\C\\FixtureC$i", []);
             $definition->setShared(false);
             $definition->setAutowired(true);
@@ -89,14 +89,14 @@ final class SymfonyContainerAdapter implements ContainerAdapterInterface
         $containerBuilder->setParameter("container.dumper.inline_class_loader", false);
         $containerBuilder->setParameter("container.dumper.inline_factories", false);
 
-        for ($i = 1; $i <= 100; $i++) {
+        for ($i = 1; $i <= 100; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\A\\FixtureA$i", []);
             $definition->setShared(true);
             $definition->setAutowired(true);
             $containerBuilder->setDefinition("DiContainerBenchmarks\\Fixture\\A\\FixtureA$i", $definition);
         }
 
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\B\\FixtureB$i", []);
             $definition->setShared(true);
             $definition->setAutowired(true);
@@ -104,7 +104,7 @@ final class SymfonyContainerAdapter implements ContainerAdapterInterface
             $containerBuilder->setDefinition("DiContainerBenchmarks\\Fixture\\B\\FixtureB$i", $definition);
         }
 
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $definition = new Definition("DiContainerBenchmarks\\Fixture\\C\\FixtureC$i", []);
             $definition->setShared(true);
             $definition->setAutowired(true);

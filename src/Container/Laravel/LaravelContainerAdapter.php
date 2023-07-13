@@ -1019,11 +1019,11 @@ final class LaravelContainerAdapter implements ContainerAdapterInterface
     public function bootstrapSingletonContainer()
     {
         /* Generated with:
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->singleton(FixtureB$i::class);\n";
             }
         */
@@ -2039,11 +2039,11 @@ final class LaravelContainerAdapter implements ContainerAdapterInterface
     public function bootstrapPrototypeContainer()
     {
         /* Generated with:
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->bind(FixtureB$i::class);\n";
             }
         */

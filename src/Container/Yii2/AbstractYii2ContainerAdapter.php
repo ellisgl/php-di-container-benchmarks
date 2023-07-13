@@ -2118,27 +2118,27 @@ final class AbstractYii2ContainerAdapter implements ContainerAdapterInterface
         $container = new Container();
 
         /* Generated with:
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\A\\FixtureA$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\C\\FixtureC$i;\n";
             }
 
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "\$container->setSingleton(FixtureA{$i}::class);\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->setSingleton(FixtureB{$i}::class);\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->setSingleton(FixtureC{$i}::class);\n";
             }
         */
@@ -4250,27 +4250,27 @@ final class AbstractYii2ContainerAdapter implements ContainerAdapterInterface
     {
         $container = new Container();
         /* Generated with:
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\A\\FixtureA$i;\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\B\\FixtureB$i;\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "use DiContainerBenchmarks\\Fixture\\C\\FixtureC$i;\n";
             }
 
-            for ($i = 1; $i <= 100; $i++) {
+            for ($i = 1; $i <= 100; ++$i) {
                echo "\$container->setSingleton(FixtureA$i::class);\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->setSingleton(FixtureB$i::class);\n";
             }
 
-            for ($i = 1; $i <= 1000; $i++) {
+            for ($i = 1; $i <= 1000; ++$i) {
                echo "\$container->set(FixtureC$i::class);\n";
             }
         */

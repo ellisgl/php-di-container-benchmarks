@@ -30,7 +30,7 @@ HERE;
     public function getTestCases(): array
     {
         $classes = [];
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $classes[] = "DiContainerBenchmarks\\Fixture\\B\\FixtureB$i";
         }
 

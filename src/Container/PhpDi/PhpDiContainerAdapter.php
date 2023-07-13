@@ -32,7 +32,7 @@ final class PhpDiContainerAdapter implements ContainerAdapterInterface
             FixtureC1000::class => autowire(),
         ];
 
-        for ($i = 1; $i <= 1000; $i++) {
+        for ($i = 1; $i <= 1000; ++$i) {
             $definitions["DiContainerBenchmarks\\Fixture\\B\\FixtureB$i"] = autowire();
         }
 
