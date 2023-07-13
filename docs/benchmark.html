@@ -21,7 +21,7 @@
                 <td><b>Repository:</b></td><td><a target="_blank" href="https://github.com/kocsismate/php-di-container-benchmarks">https://github.com/kocsismate/php-di-container-benchmarks</a></td>
             </tr>
             <tr>
-                <td><b>Generated:</b></td><td>2021-06-19 11:05:54 UTC</td>
+                <td><b>Generated:</b></td><td>2023-07-13 00:36:46 UTC</td>
             </tr>
         </table>
 
@@ -73,17 +73,17 @@
                 </thead>
                 <tbody>                    <tr>
                         <td><a target="_blank" href="https://github.com/auraphp/Aura.Di"><b>aura/di</b></a></td>
-                        <td>4.1.0</td>
+                        <td>4.2.1</td>
                         <td>dynamic</td>
                         <td>supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="https://github.com/chubbyphp/chubbyphp-container"><b>chubbyphp/chubbyphp-container</b></a></td>
-                        <td>2.0.0</td>
+                        <td>2.1.0</td>
                         <td>dynamic</td>
                         <td>not supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="https://github.com/Level-2/Dice"><b>level-2/dice</b></a></td>
-                        <td>4.0.3</td>
+                        <td>4.0.4</td>
                         <td>dynamic</td>
                         <td>supported</td>
                     </tr>                    <tr>
@@ -93,27 +93,27 @@
                         <td>supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="https://docs.laminas.dev/laminas-servicemanager/"><b>laminas/laminas-servicemanager</b></a></td>
-                        <td>3.6.4</td>
+                        <td>3.20.0</td>
                         <td>dynamic</td>
                         <td>not supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="https://laravel.com/docs/5.3/container"><b>illuminate/container</b></a></td>
-                        <td>v8.47.0</td>
+                        <td>v8.83.27</td>
                         <td>dynamic</td>
                         <td>supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="http://php-di.org/"><b>php-di/php-di</b></a></td>
-                        <td>6.3.4</td>
+                        <td>6.4.0</td>
                         <td>compiled</td>
                         <td>supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="https://symfony.com/doc/current/components/dependency_injection.html"><b>symfony/dependency-injection</b></a></td>
-                        <td>v5.3.2</td>
+                        <td>v5.4.25</td>
                         <td>compiled</td>
                         <td>supported</td>
                     </tr>                    <tr>
                         <td><a target="_blank" href="http://www.yiiframework.com/doc-2.0/guide-concept-di-container.html"><b>yiisoft/yii2</b></a></td>
-                        <td>2.0.42.1</td>
+                        <td>2.0.48.1</td>
                         <td>dynamic</td>
                         <td>supported</td>
                     </tr>                    <tr>
@@ -219,82 +219,82 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.09</td>
+                    <td>0.067</td>
                     <td>100%</td>
-                    <td>0.356</td>
+                    <td>0.352</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Symfony</b></td>
-                    <td>0.202</td>
-                    <td>224%</td>
-                    <td>0.947</td>
-                    <td>266%</td>
+                    <td>0.085</td>
+                    <td>127%</td>
+                    <td>0.353</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Dice</b></td>
+                    <td><b>PHP-DI</b></td>
+                    <td>0.146</td>
+                    <td>218%</td>
                     <td>0.372</td>
-                    <td>413%</td>
-                    <td>0.742</td>
-                    <td>208%</td>
+                    <td>106%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>0.374</td>
-                    <td>416%</td>
-                    <td>1.594</td>
-                    <td>447%</td>
+                    <td><b>Dice</b></td>
+                    <td>0.467</td>
+                    <td>697%</td>
+                    <td>0.756</td>
+                    <td>215%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>0.57</td>
-                    <td>633%</td>
-                    <td>1.39</td>
-                    <td>390%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>0.743</td>
+                    <td>1109%</td>
+                    <td>1.411</td>
+                    <td>401%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>0.743</td>
-                    <td>826%</td>
-                    <td>1.353</td>
-                    <td>380%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>0.764</td>
+                    <td>1140%</td>
+                    <td>1.51</td>
+                    <td>430%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>0.751</td>
-                    <td>834%</td>
-                    <td>1.784</td>
-                    <td>501%</td>
+                    <td>0.803</td>
+                    <td>1199%</td>
+                    <td>1.71</td>
+                    <td>486%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>1.155</td>
-                    <td>1283%</td>
-                    <td>1.62</td>
-                    <td>455%</td>
+                    <td>1.702</td>
+                    <td>2540%</td>
+                    <td>1.603</td>
+                    <td>456%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Joomla</b></td>
-                    <td>1.317</td>
-                    <td>1463%</td>
-                    <td>1.635</td>
-                    <td>459%</td>
+                    <td>2.908</td>
+                    <td>4340%</td>
+                    <td>1.693</td>
+                    <td>481%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Aura</b></td>
-                    <td>1.638</td>
-                    <td>1820%</td>
-                    <td>1.386</td>
-                    <td>389%</td>
+                    <td>4.271</td>
+                    <td>6375%</td>
+                    <td>1.419</td>
+                    <td>403%</td>
                 </tr>
             </tbody>
         </table>
@@ -314,83 +314,83 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.076</td>
+                    <td><b>Symfony</b></td>
+                    <td>0.073</td>
                     <td>100%</td>
-                    <td>0.356</td>
+                    <td>0.353</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.077</td>
-                    <td>101%</td>
-                    <td>0.947</td>
-                    <td>266%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>0.099</td>
+                    <td>136%</td>
+                    <td>1.411</td>
+                    <td>399%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>0.117</td>
-                    <td>154%</td>
-                    <td>1.353</td>
-                    <td>380%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>0.123</td>
+                    <td>168%</td>
+                    <td>1.51</td>
+                    <td>427%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>0.148</td>
-                    <td>195%</td>
-                    <td>1.594</td>
-                    <td>447%</td>
+                    <td><b>Zen</b></td>
+                    <td>0.135</td>
+                    <td>185%</td>
+                    <td>0.352</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>0.156</td>
-                    <td>205%</td>
-                    <td>1.389</td>
-                    <td>390%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>0.163</td>
+                    <td>223%</td>
+                    <td>0.372</td>
+                    <td>105%</td>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td><b>Joomla</b></td>
-                    <td>0.192</td>
-                    <td>253%</td>
-                    <td>1.635</td>
-                    <td>459%</td>
+                    <td>0.23</td>
+                    <td>315%</td>
+                    <td>1.693</td>
+                    <td>479%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>0.3</td>
-                    <td>395%</td>
-                    <td>1.784</td>
-                    <td>501%</td>
+                    <td>0.396</td>
+                    <td>542%</td>
+                    <td>1.71</td>
+                    <td>484%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Dice</b></td>
-                    <td>0.355</td>
-                    <td>467%</td>
-                    <td>0.742</td>
-                    <td>208%</td>
+                    <td>0.423</td>
+                    <td>579%</td>
+                    <td>0.756</td>
+                    <td>214%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Laravel</b></td>
-                    <td>0.562</td>
-                    <td>739%</td>
-                    <td>1.62</td>
-                    <td>455%</td>
+                    <td>0.782</td>
+                    <td>1071%</td>
+                    <td>1.603</td>
+                    <td>454%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Aura</b></td>
-                    <td>0.653</td>
-                    <td>859%</td>
-                    <td>1.386</td>
-                    <td>389%</td>
+                    <td>0.975</td>
+                    <td>1336%</td>
+                    <td>1.419</td>
+                    <td>402%</td>
                 </tr>
             </tbody>
         </table>
@@ -410,83 +410,83 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>3.832</td>
+                    <td><b>Symfony</b></td>
+                    <td>4.611</td>
                     <td>100%</td>
-                    <td>1.868</td>
+                    <td>1.866</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>4.015</td>
-                    <td>105%</td>
-                    <td>2.459</td>
-                    <td>132%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>5.586</td>
+                    <td>121%</td>
+                    <td>1.885</td>
+                    <td>101%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>4.776</td>
-                    <td>125%</td>
-                    <td>2.901</td>
-                    <td>155%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>5.59</td>
+                    <td>121%</td>
+                    <td>2.923</td>
+                    <td>157%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>4.867</td>
-                    <td>127%</td>
-                    <td>2.865</td>
-                    <td>153%</td>
+                    <td><b>Aura</b></td>
+                    <td>6.324</td>
+                    <td>137%</td>
+                    <td>2.931</td>
+                    <td>157%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>5.121</td>
-                    <td>134%</td>
-                    <td>3.107</td>
-                    <td>166%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>6.696</td>
+                    <td>145%</td>
+                    <td>3.222</td>
+                    <td>173%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Aura</b></td>
-                    <td>5.337</td>
-                    <td>139%</td>
-                    <td>2.898</td>
-                    <td>155%</td>
+                    <td><b>Dice</b></td>
+                    <td>8.464</td>
+                    <td>184%</td>
+                    <td>2.379</td>
+                    <td>127%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>5.367</td>
-                    <td>140%</td>
-                    <td>3.295</td>
-                    <td>176%</td>
+                    <td><b>Zen</b></td>
+                    <td>10.393</td>
+                    <td>225%</td>
+                    <td>1.864</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>8</th>
-                    <td><b>Dice</b></td>
-                    <td>6.675</td>
-                    <td>174%</td>
-                    <td>2.365</td>
-                    <td>127%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>11.913</td>
+                    <td>258%</td>
+                    <td>3.022</td>
+                    <td>162%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Joomla</b></td>
-                    <td>11.71</td>
-                    <td>306%</td>
-                    <td>3.146</td>
-                    <td>168%</td>
+                    <td>31.848</td>
+                    <td>691%</td>
+                    <td>3.204</td>
+                    <td>172%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Laravel</b></td>
-                    <td>26.831</td>
-                    <td>700%</td>
-                    <td>3.131</td>
-                    <td>168%</td>
+                    <td>39.404</td>
+                    <td>855%</td>
+                    <td>3.115</td>
+                    <td>167%</td>
                 </tr>
             </tbody>
         </table>
@@ -509,67 +509,67 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.543</td>
+                    <td><b>Symfony</b></td>
+                    <td>0.636</td>
                     <td>100%</td>
-                    <td>0.342</td>
+                    <td>0.341</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.71</td>
-                    <td>131%</td>
-                    <td>0.933</td>
-                    <td>273%</td>
+                    <td><b>Zen</b></td>
+                    <td>0.662</td>
+                    <td>104%</td>
+                    <td>0.338</td>
+                    <td>99%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>2.083</td>
-                    <td>384%</td>
-                    <td>1.339</td>
-                    <td>391%</td>
+                    <td>2.291</td>
+                    <td>360%</td>
+                    <td>1.397</td>
+                    <td>410%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>3.157</td>
-                    <td>581%</td>
-                    <td>1.621</td>
-                    <td>473%</td>
+                    <td>3.49</td>
+                    <td>549%</td>
+                    <td>1.679</td>
+                    <td>492%</td>
                 </tr>
                 <tr>
                     <th>5</th>
                     <td><b>ServiceManager</b></td>
-                    <td>3.17</td>
-                    <td>584%</td>
-                    <td>1.376</td>
-                    <td>402%</td>
+                    <td>4.174</td>
+                    <td>656%</td>
+                    <td>1.496</td>
+                    <td>439%</td>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td><b>Dice</b></td>
-                    <td>4.325</td>
-                    <td>797%</td>
-                    <td>0.607</td>
-                    <td>177%</td>
+                    <td>4.494</td>
+                    <td>707%</td>
+                    <td>0.615</td>
+                    <td>180%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>8.124</td>
-                    <td>1496%</td>
-                    <td>1.613</td>
-                    <td>471%</td>
+                    <td>12.181</td>
+                    <td>1915%</td>
+                    <td>1.54</td>
+                    <td>452%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>19.78</td>
-                    <td>3643%</td>
-                    <td>1.613</td>
-                    <td>471%</td>
+                    <td>31.357</td>
+                    <td>4930%</td>
+                    <td>1.597</td>
+                    <td>468%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -605,67 +605,67 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.525</td>
+                    <td><b>Symfony</b></td>
+                    <td>0.71</td>
                     <td>100%</td>
-                    <td>0.342</td>
+                    <td>0.341</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.537</td>
-                    <td>102%</td>
-                    <td>0.933</td>
-                    <td>273%</td>
+                    <td><b>Zen</b></td>
+                    <td>1.368</td>
+                    <td>193%</td>
+                    <td>0.338</td>
+                    <td>99%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>1.486</td>
-                    <td>283%</td>
-                    <td>1.339</td>
-                    <td>391%</td>
+                    <td>1.697</td>
+                    <td>239%</td>
+                    <td>1.397</td>
+                    <td>410%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>2.07</td>
-                    <td>394%</td>
-                    <td>1.621</td>
-                    <td>473%</td>
+                    <td>2.371</td>
+                    <td>334%</td>
+                    <td>1.679</td>
+                    <td>492%</td>
                 </tr>
                 <tr>
                     <th>5</th>
                     <td><b>ServiceManager</b></td>
-                    <td>2.753</td>
-                    <td>524%</td>
-                    <td>1.376</td>
-                    <td>402%</td>
+                    <td>3.853</td>
+                    <td>543%</td>
+                    <td>1.496</td>
+                    <td>439%</td>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td><b>Dice</b></td>
-                    <td>4.31</td>
-                    <td>821%</td>
-                    <td>0.607</td>
-                    <td>177%</td>
+                    <td>9.66</td>
+                    <td>1361%</td>
+                    <td>0.615</td>
+                    <td>180%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>7.683</td>
-                    <td>1463%</td>
-                    <td>1.613</td>
-                    <td>471%</td>
+                    <td>22.202</td>
+                    <td>3127%</td>
+                    <td>1.54</td>
+                    <td>452%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>19.175</td>
-                    <td>3652%</td>
-                    <td>1.613</td>
-                    <td>471%</td>
+                    <td>30.189</td>
+                    <td>4252%</td>
+                    <td>1.597</td>
+                    <td>468%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -701,67 +701,67 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.495</td>
+                    <td><b>Symfony</b></td>
+                    <td>0.594</td>
                     <td>100%</td>
-                    <td>0.342</td>
+                    <td>0.341</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.506</td>
-                    <td>102%</td>
-                    <td>0.933</td>
-                    <td>273%</td>
+                    <td><b>Zen</b></td>
+                    <td>1.045</td>
+                    <td>176%</td>
+                    <td>0.338</td>
+                    <td>99%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>1.444</td>
-                    <td>292%</td>
-                    <td>1.339</td>
-                    <td>391%</td>
+                    <td>1.701</td>
+                    <td>286%</td>
+                    <td>1.397</td>
+                    <td>410%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>2.017</td>
-                    <td>407%</td>
-                    <td>1.621</td>
-                    <td>473%</td>
+                    <td>2.319</td>
+                    <td>390%</td>
+                    <td>1.679</td>
+                    <td>492%</td>
                 </tr>
                 <tr>
                     <th>5</th>
                     <td><b>ServiceManager</b></td>
-                    <td>2.672</td>
-                    <td>540%</td>
-                    <td>1.376</td>
-                    <td>402%</td>
+                    <td>3.846</td>
+                    <td>647%</td>
+                    <td>1.496</td>
+                    <td>439%</td>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td><b>Dice</b></td>
-                    <td>4.132</td>
-                    <td>835%</td>
-                    <td>0.678</td>
-                    <td>198%</td>
+                    <td>4.818</td>
+                    <td>811%</td>
+                    <td>0.686</td>
+                    <td>201%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>7.532</td>
-                    <td>1522%</td>
-                    <td>1.649</td>
-                    <td>482%</td>
+                    <td>13.06</td>
+                    <td>2199%</td>
+                    <td>1.576</td>
+                    <td>462%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>19.095</td>
-                    <td>3858%</td>
-                    <td>1.613</td>
-                    <td>471%</td>
+                    <td>30.195</td>
+                    <td>5083%</td>
+                    <td>1.597</td>
+                    <td>468%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -801,82 +801,82 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>4.413</td>
+                    <td>5.031</td>
                     <td>100%</td>
-                    <td>2.054</td>
+                    <td>2.049</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>5.094</td>
-                    <td>115%</td>
-                    <td>2.61</td>
-                    <td>127%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>7.148</td>
+                    <td>142%</td>
+                    <td>3.134</td>
+                    <td>153%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>6.019</td>
-                    <td>136%</td>
-                    <td>3.013</td>
-                    <td>147%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>9.016</td>
+                    <td>179%</td>
+                    <td>3.41</td>
+                    <td>166%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>6.15</td>
-                    <td>139%</td>
-                    <td>2.994</td>
-                    <td>146%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>9.348</td>
+                    <td>186%</td>
+                    <td>2.339</td>
+                    <td>114%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>6.916</td>
-                    <td>157%</td>
-                    <td>3.484</td>
-                    <td>170%</td>
+                    <td><b>Dice</b></td>
+                    <td>12.993</td>
+                    <td>258%</td>
+                    <td>4.043</td>
+                    <td>197%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>7.897</td>
-                    <td>179%</td>
-                    <td>3.564</td>
-                    <td>174%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>13.913</td>
+                    <td>277%</td>
+                    <td>3.055</td>
+                    <td>149%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Dice</b></td>
-                    <td>8.624</td>
-                    <td>195%</td>
-                    <td>3.925</td>
-                    <td>191%</td>
+                    <td><b>Symfony</b></td>
+                    <td>14.165</td>
+                    <td>282%</td>
+                    <td>2.051</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>8</th>
-                    <td><b>Aura</b></td>
-                    <td>10.52</td>
-                    <td>238%</td>
-                    <td>3.162</td>
-                    <td>154%</td>
+                    <td><b>Joomla</b></td>
+                    <td>20.392</td>
+                    <td>405%</td>
+                    <td>3.316</td>
+                    <td>162%</td>
                 </tr>
                 <tr>
                     <th>9</th>
-                    <td><b>Joomla</b></td>
-                    <td>13.468</td>
-                    <td>305%</td>
-                    <td>3.258</td>
-                    <td>159%</td>
+                    <td><b>Aura</b></td>
+                    <td>28.079</td>
+                    <td>558%</td>
+                    <td>3.154</td>
+                    <td>154%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Laravel</b></td>
-                    <td>29.194</td>
-                    <td>662%</td>
-                    <td>3.276</td>
-                    <td>160%</td>
+                    <td>68.851</td>
+                    <td>1369%</td>
+                    <td>3.261</td>
+                    <td>159%</td>
                 </tr>
             </tbody>
         </table>
@@ -897,82 +897,82 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>4.396</td>
+                    <td>5.928</td>
                     <td>100%</td>
-                    <td>2.054</td>
+                    <td>2.049</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>4.947</td>
-                    <td>113%</td>
-                    <td>2.61</td>
-                    <td>127%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>7.41</td>
+                    <td>125%</td>
+                    <td>3.055</td>
+                    <td>149%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>5.501</td>
-                    <td>125%</td>
-                    <td>2.994</td>
-                    <td>146%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>11.631</td>
+                    <td>196%</td>
+                    <td>2.339</td>
+                    <td>114%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>5.653</td>
-                    <td>129%</td>
-                    <td>3.013</td>
-                    <td>147%</td>
+                    <td><b>Symfony</b></td>
+                    <td>13.22</td>
+                    <td>223%</td>
+                    <td>2.051</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>6.44</td>
-                    <td>146%</td>
-                    <td>3.484</td>
-                    <td>170%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>13.878</td>
+                    <td>234%</td>
+                    <td>3.134</td>
+                    <td>153%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>7.658</td>
-                    <td>174%</td>
-                    <td>3.564</td>
-                    <td>174%</td>
+                    <td><b>Aura</b></td>
+                    <td>14.269</td>
+                    <td>241%</td>
+                    <td>3.154</td>
+                    <td>154%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Dice</b></td>
-                    <td>8.598</td>
-                    <td>196%</td>
-                    <td>3.925</td>
-                    <td>191%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>16.825</td>
+                    <td>284%</td>
+                    <td>3.41</td>
+                    <td>166%</td>
                 </tr>
                 <tr>
                     <th>8</th>
-                    <td><b>Aura</b></td>
-                    <td>9.477</td>
-                    <td>216%</td>
-                    <td>3.162</td>
-                    <td>154%</td>
+                    <td><b>Dice</b></td>
+                    <td>21.135</td>
+                    <td>357%</td>
+                    <td>4.043</td>
+                    <td>197%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Joomla</b></td>
-                    <td>12.442</td>
-                    <td>283%</td>
-                    <td>3.258</td>
-                    <td>159%</td>
+                    <td>33.254</td>
+                    <td>561%</td>
+                    <td>3.316</td>
+                    <td>162%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Laravel</b></td>
-                    <td>28.527</td>
-                    <td>649%</td>
-                    <td>3.276</td>
-                    <td>160%</td>
+                    <td>54.823</td>
+                    <td>925%</td>
+                    <td>3.261</td>
+                    <td>159%</td>
                 </tr>
             </tbody>
         </table>
@@ -993,81 +993,81 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>4.215</td>
+                    <td>4.819</td>
                     <td>100%</td>
-                    <td>2.076</td>
+                    <td>2.072</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Symfony</b></td>
-                    <td>4.393</td>
-                    <td>104%</td>
-                    <td>2.633</td>
-                    <td>127%</td>
+                    <td>5.085</td>
+                    <td>106%</td>
+                    <td>2.073</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>PHP-DI</b></td>
-                    <td>5.246</td>
+                    <td>5.98</td>
                     <td>124%</td>
-                    <td>3.587</td>
-                    <td>173%</td>
+                    <td>2.361</td>
+                    <td>114%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>5.246</td>
-                    <td>124%</td>
-                    <td>3.028</td>
-                    <td>146%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>6.084</td>
+                    <td>126%</td>
+                    <td>3.089</td>
+                    <td>149%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>5.29</td>
-                    <td>126%</td>
-                    <td>3.028</td>
-                    <td>146%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>6.302</td>
+                    <td>131%</td>
+                    <td>3.149</td>
+                    <td>152%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>5.545</td>
-                    <td>132%</td>
-                    <td>3.877</td>
-                    <td>187%</td>
+                    <td><b>Aura</b></td>
+                    <td>6.805</td>
+                    <td>141%</td>
+                    <td>3.547</td>
+                    <td>171%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Aura</b></td>
-                    <td>5.84</td>
-                    <td>139%</td>
-                    <td>3.555</td>
-                    <td>171%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>6.89</td>
+                    <td>143%</td>
+                    <td>3.803</td>
+                    <td>184%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Dice</b></td>
-                    <td>7.269</td>
-                    <td>172%</td>
-                    <td>4.307</td>
-                    <td>207%</td>
+                    <td>8.569</td>
+                    <td>178%</td>
+                    <td>4.425</td>
+                    <td>214%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Joomla</b></td>
-                    <td>12.164</td>
-                    <td>289%</td>
-                    <td>3.277</td>
-                    <td>158%</td>
+                    <td>15.962</td>
+                    <td>331%</td>
+                    <td>3.338</td>
+                    <td>161%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Laravel</b></td>
-                    <td>27.238</td>
-                    <td>646%</td>
-                    <td>3.299</td>
+                    <td>39.767</td>
+                    <td>825%</td>
+                    <td>3.284</td>
                     <td>159%</td>
                 </tr>
             </tbody>
@@ -1092,65 +1092,65 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.916</td>
+                    <td>1.114</td>
                     <td>100%</td>
-                    <td>0.611</td>
+                    <td>0.606</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>2.024</td>
-                    <td>221%</td>
-                    <td>1.605</td>
-                    <td>263%</td>
+                    <td>2.186</td>
+                    <td>196%</td>
+                    <td>1.663</td>
+                    <td>274%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Symfony</b></td>
-                    <td>2.523</td>
-                    <td>275%</td>
-                    <td>1.52</td>
-                    <td>249%</td>
+                    <td><b>Dice</b></td>
+                    <td>2.882</td>
+                    <td>259%</td>
+                    <td>1.494</td>
+                    <td>246%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>3.171</td>
-                    <td>346%</td>
-                    <td>1.642</td>
-                    <td>269%</td>
+                    <td><b>Symfony</b></td>
+                    <td>3.131</td>
+                    <td>281%</td>
+                    <td>1.022</td>
+                    <td>169%</td>
                 </tr>
                 <tr>
                     <th>5</th>
                     <td><b>Joomla</b></td>
-                    <td>3.181</td>
-                    <td>347%</td>
-                    <td>1.887</td>
-                    <td>309%</td>
+                    <td>3.448</td>
+                    <td>310%</td>
+                    <td>1.945</td>
+                    <td>321%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Dice</b></td>
-                    <td>3.192</td>
-                    <td>348%</td>
-                    <td>1.437</td>
-                    <td>235%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>5.28</td>
+                    <td>474%</td>
+                    <td>1.762</td>
+                    <td>291%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>6.956</td>
-                    <td>759%</td>
-                    <td>1.91</td>
-                    <td>313%</td>
+                    <td>20.893</td>
+                    <td>1875%</td>
+                    <td>1.837</td>
+                    <td>303%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>14.527</td>
-                    <td>1586%</td>
-                    <td>1.839</td>
+                    <td>47.108</td>
+                    <td>4229%</td>
+                    <td>1.824</td>
                     <td>301%</td>
                 </tr>
                 <tr>
@@ -1187,67 +1187,67 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.905</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>1.64</td>
                     <td>100%</td>
-                    <td>0.612</td>
+                    <td>1.663</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>1.468</td>
-                    <td>162%</td>
-                    <td>1.605</td>
-                    <td>262%</td>
+                    <td><b>Joomla</b></td>
+                    <td>2.319</td>
+                    <td>141%</td>
+                    <td>1.945</td>
+                    <td>117%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Joomla</b></td>
-                    <td>2.073</td>
-                    <td>229%</td>
-                    <td>1.887</td>
-                    <td>308%</td>
+                    <td><b>Zen</b></td>
+                    <td>2.428</td>
+                    <td>148%</td>
+                    <td>0.608</td>
+                    <td>37%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>Symfony</b></td>
-                    <td>2.362</td>
-                    <td>261%</td>
-                    <td>1.52</td>
-                    <td>248%</td>
+                    <td><b>Dice</b></td>
+                    <td>2.881</td>
+                    <td>176%</td>
+                    <td>1.494</td>
+                    <td>90%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>2.74</td>
-                    <td>303%</td>
-                    <td>1.642</td>
-                    <td>268%</td>
+                    <td><b>Symfony</b></td>
+                    <td>3.153</td>
+                    <td>192%</td>
+                    <td>1.022</td>
+                    <td>61%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Dice</b></td>
-                    <td>3.2</td>
-                    <td>354%</td>
-                    <td>1.437</td>
-                    <td>235%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>3.978</td>
+                    <td>243%</td>
+                    <td>1.762</td>
+                    <td>106%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>6.549</td>
-                    <td>724%</td>
-                    <td>1.91</td>
-                    <td>312%</td>
+                    <td>20.165</td>
+                    <td>1230%</td>
+                    <td>1.837</td>
+                    <td>110%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>13.972</td>
-                    <td>1544%</td>
-                    <td>1.839</td>
-                    <td>300%</td>
+                    <td>23.022</td>
+                    <td>1404%</td>
+                    <td>1.824</td>
+                    <td>110%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -1284,66 +1284,66 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.833</td>
+                    <td>1.101</td>
                     <td>100%</td>
-                    <td>0.624</td>
+                    <td>0.619</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>1.357</td>
-                    <td>163%</td>
-                    <td>1.617</td>
-                    <td>259%</td>
+                    <td>1.571</td>
+                    <td>143%</td>
+                    <td>1.675</td>
+                    <td>270%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>Symfony</b></td>
-                    <td>1.674</td>
-                    <td>201%</td>
-                    <td>1.54</td>
-                    <td>247%</td>
+                    <td><b>Dice</b></td>
+                    <td>2.051</td>
+                    <td>186%</td>
+                    <td>1.872</td>
+                    <td>302%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>1.986</td>
-                    <td>238%</td>
-                    <td>1.898</td>
-                    <td>304%</td>
+                    <td>2.264</td>
+                    <td>206%</td>
+                    <td>1.957</td>
+                    <td>316%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Dice</b></td>
-                    <td>2.557</td>
-                    <td>307%</td>
-                    <td>1.815</td>
-                    <td>291%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>3.891</td>
+                    <td>353%</td>
+                    <td>1.774</td>
+                    <td>286%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>2.681</td>
-                    <td>322%</td>
-                    <td>1.653</td>
-                    <td>265%</td>
+                    <td><b>Symfony</b></td>
+                    <td>4.662</td>
+                    <td>423%</td>
+                    <td>1.042</td>
+                    <td>168%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>6.329</td>
-                    <td>760%</td>
-                    <td>2.299</td>
-                    <td>368%</td>
+                    <td>11.133</td>
+                    <td>1011%</td>
+                    <td>2.226</td>
+                    <td>359%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>13.87</td>
-                    <td>1665%</td>
-                    <td>1.851</td>
-                    <td>297%</td>
+                    <td>45.948</td>
+                    <td>4173%</td>
+                    <td>1.836</td>
+                    <td>296%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -1383,82 +1383,82 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.324</td>
+                    <td>0.101</td>
                     <td>100%</td>
-                    <td>0.377</td>
+                    <td>0.372</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Symfony</b></td>
-                    <td>0.442</td>
-                    <td>136%</td>
-                    <td>0.933</td>
+                    <td>0.25</td>
                     <td>248%</td>
+                    <td>0.374</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>PHP-DI</b></td>
-                    <td>1.006</td>
-                    <td>310%</td>
-                    <td>2.137</td>
-                    <td>567%</td>
+                    <td>0.717</td>
+                    <td>710%</td>
+                    <td>0.976</td>
+                    <td>262%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>1.164</td>
-                    <td>359%</td>
-                    <td>1.777</td>
-                    <td>472%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>1.205</td>
+                    <td>1193%</td>
+                    <td>1.659</td>
+                    <td>446%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>1.233</td>
-                    <td>381%</td>
-                    <td>1.598</td>
-                    <td>424%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>1.649</td>
+                    <td>1633%</td>
+                    <td>1.897</td>
+                    <td>510%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Joomla</b></td>
-                    <td>1.784</td>
-                    <td>551%</td>
-                    <td>1.855</td>
-                    <td>492%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>3.244</td>
+                    <td>3212%</td>
+                    <td>3.636</td>
+                    <td>977%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>2.634</td>
-                    <td>813%</td>
-                    <td>3.709</td>
-                    <td>985%</td>
+                    <td><b>Joomla</b></td>
+                    <td>3.296</td>
+                    <td>3263%</td>
+                    <td>1.916</td>
+                    <td>515%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Dice</b></td>
-                    <td>3.018</td>
-                    <td>931%</td>
-                    <td>4.975</td>
-                    <td>1321%</td>
+                    <td>6.754</td>
+                    <td>6687%</td>
+                    <td>5.154</td>
+                    <td>1385%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Laravel</b></td>
-                    <td>3.172</td>
-                    <td>979%</td>
-                    <td>3.03</td>
-                    <td>805%</td>
+                    <td>8.945</td>
+                    <td>8856%</td>
+                    <td>3.014</td>
+                    <td>810%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Aura</b></td>
-                    <td>6.873</td>
-                    <td>2121%</td>
-                    <td>4.242</td>
-                    <td>1126%</td>
+                    <td>9.335</td>
+                    <td>9243%</td>
+                    <td>4.653</td>
+                    <td>1251%</td>
                 </tr>
             </tbody>
         </table>
@@ -1478,83 +1478,83 @@ test case excludes these. The third one warms up the container before the measur
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.308</td>
+                    <td><b>Zen</b></td>
+                    <td>0.097</td>
                     <td>100%</td>
-                    <td>0.933</td>
+                    <td>0.372</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Zen</b></td>
-                    <td>0.309</td>
+                    <td><b>Symfony</b></td>
+                    <td>0.097</td>
                     <td>100%</td>
-                    <td>0.377</td>
-                    <td>40%</td>
+                    <td>0.374</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>0.613</td>
-                    <td>199%</td>
-                    <td>1.598</td>
-                    <td>171%</td>
+                    <td>0.394</td>
+                    <td>406%</td>
+                    <td>1.659</td>
+                    <td>446%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>0.662</td>
-                    <td>215%</td>
-                    <td>1.855</td>
-                    <td>199%</td>
+                    <td>0.407</td>
+                    <td>420%</td>
+                    <td>1.916</td>
+                    <td>515%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>0.747</td>
-                    <td>243%</td>
-                    <td>2.137</td>
-                    <td>229%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>0.574</td>
+                    <td>592%</td>
+                    <td>1.897</td>
+                    <td>510%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>0.777</td>
-                    <td>252%</td>
-                    <td>1.777</td>
-                    <td>190%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>0.697</td>
+                    <td>719%</td>
+                    <td>0.976</td>
+                    <td>262%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>2.23</td>
-                    <td>724%</td>
-                    <td>3.709</td>
-                    <td>397%</td>
+                    <td>2.788</td>
+                    <td>2874%</td>
+                    <td>3.636</td>
+                    <td>977%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>2.588</td>
-                    <td>840%</td>
-                    <td>3.03</td>
-                    <td>325%</td>
+                    <td>3.446</td>
+                    <td>3553%</td>
+                    <td>3.014</td>
+                    <td>810%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Dice</b></td>
-                    <td>2.997</td>
-                    <td>973%</td>
-                    <td>4.975</td>
-                    <td>533%</td>
+                    <td>4.405</td>
+                    <td>4541%</td>
+                    <td>5.154</td>
+                    <td>1385%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Aura</b></td>
-                    <td>5.872</td>
-                    <td>1906%</td>
-                    <td>4.242</td>
-                    <td>455%</td>
+                    <td>7.992</td>
+                    <td>8239%</td>
+                    <td>4.653</td>
+                    <td>1251%</td>
                 </tr>
             </tbody>
         </table>
@@ -1575,82 +1575,82 @@ test case excludes these. The third one warms up the container before the measur
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.389</td>
+                    <td>0.434</td>
                     <td>100%</td>
-                    <td>0.531</td>
+                    <td>0.527</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Symfony</b></td>
-                    <td>0.407</td>
-                    <td>105%</td>
-                    <td>1.088</td>
-                    <td>205%</td>
+                    <td>0.568</td>
+                    <td>131%</td>
+                    <td>0.528</td>
+                    <td>100%</td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>0.487</td>
-                    <td>125%</td>
-                    <td>1.931</td>
-                    <td>364%</td>
+                    <td><b>Chubbyphp</b></td>
+                    <td>0.574</td>
+                    <td>132%</td>
+                    <td>1.814</td>
+                    <td>344%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>Chubbyphp</b></td>
-                    <td>0.491</td>
-                    <td>126%</td>
-                    <td>1.753</td>
-                    <td>330%</td>
+                    <td><b>Aura</b></td>
+                    <td>0.622</td>
+                    <td>143%</td>
+                    <td>4.807</td>
+                    <td>913%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>PHP-DI</b></td>
-                    <td>0.507</td>
-                    <td>130%</td>
-                    <td>2.291</td>
-                    <td>431%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>0.696</td>
+                    <td>160%</td>
+                    <td>3.79</td>
+                    <td>720%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Aura</b></td>
-                    <td>0.537</td>
-                    <td>138%</td>
-                    <td>4.397</td>
-                    <td>828%</td>
+                    <td><b>PHP-DI</b></td>
+                    <td>0.698</td>
+                    <td>161%</td>
+                    <td>1.131</td>
+                    <td>215%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>0.539</td>
-                    <td>139%</td>
-                    <td>3.864</td>
-                    <td>727%</td>
+                    <td><b>Dice</b></td>
+                    <td>0.864</td>
+                    <td>199%</td>
+                    <td>5.641</td>
+                    <td>1071%</td>
                 </tr>
                 <tr>
                     <th>8</th>
-                    <td><b>Dice</b></td>
-                    <td>0.728</td>
-                    <td>187%</td>
-                    <td>5.462</td>
-                    <td>1028%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>1.329</td>
+                    <td>306%</td>
+                    <td>2.052</td>
+                    <td>390%</td>
                 </tr>
                 <tr>
                     <th>9</th>
                     <td><b>Joomla</b></td>
-                    <td>1.174</td>
-                    <td>302%</td>
-                    <td>2.009</td>
-                    <td>378%</td>
+                    <td>1.566</td>
+                    <td>361%</td>
+                    <td>2.07</td>
+                    <td>393%</td>
                 </tr>
                 <tr>
                     <th>10</th>
                     <td><b>Laravel</b></td>
-                    <td>2.714</td>
-                    <td>698%</td>
-                    <td>3.185</td>
-                    <td>600%</td>
+                    <td>4.381</td>
+                    <td>1009%</td>
+                    <td>3.168</td>
+                    <td>602%</td>
                 </tr>
             </tbody>
         </table>
@@ -1673,66 +1673,66 @@ times. Neither autoloading time, nor bootstrap time is included in the measureme
             <tbody>                <tr>
                     <th>1</th>
                     <td><b>Zen</b></td>
-                    <td>0.832</td>
+                    <td>0.625</td>
                     <td>100%</td>
-                    <td>0.375</td>
+                    <td>0.371</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td><b>Symfony</b></td>
-                    <td>1.011</td>
-                    <td>122%</td>
-                    <td>0.94</td>
-                    <td>251%</td>
+                    <td>0.644</td>
+                    <td>103%</td>
+                    <td>0.381</td>
+                    <td>103%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>2.889</td>
-                    <td>347%</td>
-                    <td>1.566</td>
-                    <td>417%</td>
+                    <td>2.483</td>
+                    <td>397%</td>
+                    <td>1.627</td>
+                    <td>439%</td>
                 </tr>
                 <tr>
                     <th>4</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>3.909</td>
-                    <td>470%</td>
-                    <td>1.756</td>
-                    <td>468%</td>
+                    <td><b>Joomla</b></td>
+                    <td>3.723</td>
+                    <td>596%</td>
+                    <td>1.914</td>
+                    <td>517%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>Joomla</b></td>
-                    <td>3.992</td>
-                    <td>480%</td>
-                    <td>1.853</td>
-                    <td>494%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>4.426</td>
+                    <td>708%</td>
+                    <td>1.876</td>
+                    <td>506%</td>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td><b>Dice</b></td>
-                    <td>7.036</td>
-                    <td>846%</td>
-                    <td>3.553</td>
-                    <td>947%</td>
+                    <td>6.831</td>
+                    <td>1093%</td>
+                    <td>3.671</td>
+                    <td>991%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>9.973</td>
-                    <td>1199%</td>
-                    <td>3.551</td>
-                    <td>947%</td>
+                    <td>15.032</td>
+                    <td>2405%</td>
+                    <td>3.478</td>
+                    <td>939%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>20.985</td>
-                    <td>2522%</td>
-                    <td>3.067</td>
-                    <td>818%</td>
+                    <td>66.013</td>
+                    <td>10562%</td>
+                    <td>3.051</td>
+                    <td>823%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -1768,67 +1768,67 @@ times. Neither autoloading time, nor bootstrap time is included in the measureme
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>0.799</td>
+                    <td><b>Symfony</b></td>
+                    <td>1.263</td>
                     <td>100%</td>
-                    <td>0.375</td>
+                    <td>0.381</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>0.837</td>
-                    <td>105%</td>
-                    <td>0.94</td>
-                    <td>251%</td>
+                    <td><b>Zen</b></td>
+                    <td>1.398</td>
+                    <td>111%</td>
+                    <td>0.371</td>
+                    <td>97%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>2.291</td>
-                    <td>287%</td>
-                    <td>1.566</td>
-                    <td>417%</td>
+                    <td>4.105</td>
+                    <td>325%</td>
+                    <td>1.627</td>
+                    <td>427%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>2.927</td>
-                    <td>366%</td>
-                    <td>1.853</td>
-                    <td>494%</td>
+                    <td>5.828</td>
+                    <td>461%</td>
+                    <td>1.914</td>
+                    <td>503%</td>
                 </tr>
                 <tr>
                     <th>5</th>
                     <td><b>ServiceManager</b></td>
-                    <td>3.521</td>
-                    <td>441%</td>
-                    <td>1.756</td>
-                    <td>468%</td>
+                    <td>8.708</td>
+                    <td>689%</td>
+                    <td>1.876</td>
+                    <td>493%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Dice</b></td>
-                    <td>7.026</td>
-                    <td>879%</td>
-                    <td>3.553</td>
-                    <td>947%</td>
+                    <td><b>Yii2 Container</b></td>
+                    <td>14.792</td>
+                    <td>1171%</td>
+                    <td>3.478</td>
+                    <td>913%</td>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td><b>Yii2 Container</b></td>
-                    <td>9.502</td>
-                    <td>1189%</td>
-                    <td>3.551</td>
-                    <td>947%</td>
+                    <td><b>Dice</b></td>
+                    <td>15.095</td>
+                    <td>1195%</td>
+                    <td>3.671</td>
+                    <td>964%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>20.363</td>
-                    <td>2549%</td>
-                    <td>3.067</td>
-                    <td>818%</td>
+                    <td>65.349</td>
+                    <td>5174%</td>
+                    <td>3.051</td>
+                    <td>801%</td>
                 </tr>
                 <tr>
                     <th>9</th>
@@ -1864,67 +1864,67 @@ times. Neither autoloading time, nor bootstrap time is included in the measureme
             </thead>
             <tbody>                <tr>
                     <th>1</th>
-                    <td><b>Zen</b></td>
-                    <td>5.485</td>
+                    <td><b>Symfony</b></td>
+                    <td>13.086</td>
                     <td>100%</td>
-                    <td>0.377</td>
+                    <td>0.382</td>
                     <td>100%</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td><b>Symfony</b></td>
-                    <td>5.535</td>
+                    <td><b>Zen</b></td>
+                    <td>13.276</td>
                     <td>101%</td>
-                    <td>0.941</td>
-                    <td>250%</td>
+                    <td>0.372</td>
+                    <td>97%</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td><b>Chubbyphp</b></td>
-                    <td>18.877</td>
-                    <td>344%</td>
-                    <td>1.567</td>
-                    <td>416%</td>
+                    <td>35.842</td>
+                    <td>274%</td>
+                    <td>1.628</td>
+                    <td>426%</td>
                 </tr>
                 <tr>
                     <th>4</th>
                     <td><b>Joomla</b></td>
-                    <td>25.019</td>
-                    <td>456%</td>
-                    <td>1.855</td>
-                    <td>492%</td>
+                    <td>41.253</td>
+                    <td>315%</td>
+                    <td>1.916</td>
+                    <td>501%</td>
                 </tr>
                 <tr>
                     <th>5</th>
-                    <td><b>ServiceManager</b></td>
-                    <td>30.969</td>
-                    <td>565%</td>
-                    <td>1.757</td>
-                    <td>467%</td>
+                    <td><b>Dice</b></td>
+                    <td>74.837</td>
+                    <td>572%</td>
+                    <td>4.39</td>
+                    <td>1148%</td>
                 </tr>
                 <tr>
                     <th>6</th>
-                    <td><b>Dice</b></td>
-                    <td>51.71</td>
-                    <td>943%</td>
-                    <td>4.272</td>
-                    <td>1134%</td>
+                    <td><b>ServiceManager</b></td>
+                    <td>77.887</td>
+                    <td>595%</td>
+                    <td>1.878</td>
+                    <td>491%</td>
                 </tr>
                 <tr>
                     <th>7</th>
                     <td><b>Yii2 Container</b></td>
-                    <td>81.801</td>
-                    <td>1491%</td>
-                    <td>3.911</td>
-                    <td>1039%</td>
+                    <td>121.306</td>
+                    <td>927%</td>
+                    <td>3.838</td>
+                    <td>1004%</td>
                 </tr>
                 <tr>
                     <th>8</th>
                     <td><b>Laravel</b></td>
-                    <td>198.607</td>
-                    <td>3621%</td>
-                    <td>3.069</td>
-                    <td>815%</td>
+                    <td>322.373</td>
+                    <td>2463%</td>
+                    <td>3.052</td>
+                    <td>799%</td>
                 </tr>
                 <tr>
                     <th>9</th>
