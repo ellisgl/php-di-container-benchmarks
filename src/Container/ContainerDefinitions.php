@@ -10,6 +10,7 @@ use DiContainerBenchmarks\Container\Dice\DiceContainerDefinition;
 use DiContainerBenchmarks\Container\Joomla\JoomlaContainerDefinition;
 use DiContainerBenchmarks\Container\LaminasServiceManager\LaminasServiceManagerContainerDefinition;
 use DiContainerBenchmarks\Container\Laravel\LaravelContainerDefinition;
+use DiContainerBenchmarks\Container\MartinHughesAuryn\MartinHughesAurynContainerDefinition;
 use DiContainerBenchmarks\Container\PhpDi\PhpDiContainerDefinition;
 use DiContainerBenchmarks\Container\Symfony\SymfonyContainerDefinition;
 use DiContainerBenchmarks\Container\Yii2\Yii2ContainerDefinition;
@@ -33,6 +34,7 @@ final class ContainerDefinitions
             new SymfonyContainerDefinition(),
             new Yii2ContainerDefinition(),
             new ZenContainerDefinition(),
+            new MartinHughesAurynContainerDefinition(),
         ];
     }
 
